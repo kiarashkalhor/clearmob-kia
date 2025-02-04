@@ -1,0 +1,13 @@
+# Plugin made by Kiarash_klhr
+# Configuration file for ClearMobPlugin
+# Time interval to clear mobs in seconds
+clear-interval: 60
+entities:
+  - CREEPER
+  - ZOMBIE
+warnings:
+  before-clear-1: "Mobs will be cleared in %seconds% seconds!"
+  before-clear-2: "Mobs will be cleared in %seconds% seconds!"
+  after-clear: "Mobs have been cleared! %count% mobs were removed!" # New configurable message
+warning-interval-1: 10
+warning-interval-2: 20
